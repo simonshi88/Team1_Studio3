@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721bf2ca2165d0247a4e49d5fda78787, type: 3}
+  m_Name: ModuleData_Public
+  m_EditorClassIdentifier: 
+  Prototypes: {fileID: 1831165061983658, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+  Modules:
+  - Name: Empty R0
+    Prototype: {fileID: 114566250024934836, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 1351484772775764, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0200000000000000
+    - data: 0100000000000000
+    - data: 1100000000000000
+    - data: 0800000000000000
+    - data: 0100000000000000
+    - data: 0500000000000000
+    Index: 0
+    PLogP: -0.32188758
+  - Name: public_plane R0
+    Prototype: {fileID: 8641079298267314577, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 8190724484508556023, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: acb8000000000000
+    - data: 2222000000000000
+    - data: a8b2000000000000
+    - data: 0900000000000000
+    - data: 2222000000000000
+    - data: 5853010000000000
+    Index: 1
+    PLogP: 8.04719
+  - Name: public_plane R1
+    Prototype: {fileID: 8641079298267314577, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 8190724484508556023, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 4444000000000000
+    - data: 1100000000000000
+    - data: b2a6000000000000
+    - data: 4444000000000000
+    - data: 5853010000000000
+    Index: 2
+    PLogP: 8.04719
+  - Name: public_plane R2
+    Prototype: {fileID: 8641079298267314577, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 8190724484508556023, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 0300000000000000
+    - data: 8888000000000000
+    - data: 464d010000000000
+    - data: b2a6000000000000
+    - data: 8888000000000000
+    - data: a2ac000000000000
+    Index: 3
+    PLogP: 8.04719
+  - Name: public_plane R3
+    Prototype: {fileID: 8641079298267314577, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 8190724484508556023, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: acb8000000000000
+    - data: 1011010000000000
+    - data: 464d010000000000
+    - data: 4459010000000000
+    - data: 1011010000000000
+    - data: 0500000000000000
+    Index: 4
+    PLogP: 8.04719
+  - Name: public1 R0
+    Prototype: {fileID: 5831721175045332926, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6639803278421896699, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: acb8000000000000
+    - data: 2222000000000000
+    - data: a8b2000000000000
+    - data: b2a6000000000000
+    - data: 2222000000000000
+    - data: a2ac000000000000
+    Index: 5
+    PLogP: 0
+  - Name: public1 R1
+    Prototype: {fileID: 5831721175045332926, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6639803278421896699, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 4444000000000000
+    - data: 464d010000000000
+    - data: 4459010000000000
+    - data: 4444000000000000
+    - data: 5853010000000000
+    Index: 6
+    PLogP: 0
+  - Name: public1 R2
+    Prototype: {fileID: 5831721175045332926, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6639803278421896699, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: acb8000000000000
+    - data: 8888000000000000
+    - data: a8b2000000000000
+    - data: b2a6000000000000
+    - data: 8888000000000000
+    - data: a2ac000000000000
+    Index: 7
+    PLogP: 0
+  - Name: public1 R3
+    Prototype: {fileID: 5831721175045332926, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6639803278421896699, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 1011010000000000
+    - data: 464d010000000000
+    - data: 4459010000000000
+    - data: 1011010000000000
+    - data: 5853010000000000
+    Index: 8
+    PLogP: 0
+  - Name: public2 R0
+    Prototype: {fileID: 3041151705548026195, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6968350190449194792, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: aca0000000000000
+    - data: 2222000000000000
+    - data: 4641010000000000
+    - data: 4459010000000000
+    - data: 2222000000000000
+    - data: a2ac000000000000
+    Index: 9
+    PLogP: -0.3465736
+  - Name: public2 R1
+    Prototype: {fileID: 3041151705548026195, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6968350190449194792, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: aca0000000000000
+    - data: 4444000000000000
+    - data: a8b2000000000000
+    - data: 4459010000000000
+    - data: 4444000000000000
+    - data: 5841010000000000
+    Index: 10
+    PLogP: -0.3465736
+  - Name: public2 R2
+    Prototype: {fileID: 3041151705548026195, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6968350190449194792, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 8888000000000000
+    - data: a8b2000000000000
+    - data: b2a0000000000000
+    - data: 8888000000000000
+    - data: 5841010000000000
+    Index: 11
+    PLogP: -0.3465736
+  - Name: public2 R3
+    Prototype: {fileID: 3041151705548026195, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 6968350190449194792, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 1011010000000000
+    - data: 4641010000000000
+    - data: b2a0000000000000
+    - data: 1011010000000000
+    - data: a2ac000000000000
+    Index: 12
+    PLogP: -0.3465736
+  - Name: public_ccf_chairs R0
+    Prototype: {fileID: 3346910126470425049, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 1560236757525517270, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0018000000000000
+    - data: 2222000000000000
+    - data: a8b2000000000000
+    - data: b2a6000000000000
+    - data: 2222000000000000
+    - data: a2ac000000000000
+    Index: 13
+    PLogP: 0
+  - Name: public_ccf_chairs R1
+    Prototype: {fileID: 3346910126470425049, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 1560236757525517270, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 4444000000000000
+    - data: 464d010000000000
+    - data: 4459010000000000
+    - data: 4444000000000000
+    - data: 0012000000000000
+    Index: 14
+    PLogP: 0
+  - Name: public_ccf_chairs R2
+    Prototype: {fileID: 3346910126470425049, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 1560236757525517270, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: acb8000000000000
+    - data: 8888000000000000
+    - data: a8b2000000000000
+    - data: 0006000000000000
+    - data: 8888000000000000
+    - data: a2ac000000000000
+    Index: 15
+    PLogP: 0
+  - Name: public_ccf_chairs R3
+    Prototype: {fileID: 3346910126470425049, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Prefab: {fileID: 1560236757525517270, guid: ee824121c5be5f344b51aabe18c1f0c6, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 5047010000000000
+    - data: 1011010000000000
+    - data: 000c000000000000
+    - data: 4459010000000000
+    - data: 1011010000000000
+    - data: 5853010000000000
+    Index: 16
+    PLogP: 0

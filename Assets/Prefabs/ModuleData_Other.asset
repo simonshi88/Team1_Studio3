@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721bf2ca2165d0247a4e49d5fda78787, type: 3}
+  m_Name: ModuleData_Other
+  m_EditorClassIdentifier: 
+  Prototypes: {fileID: 1831165061983658, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+  Modules:
+  - Name: Empty R0
+    Prototype: {fileID: 114566250024934836, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 1351484772775764, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: c088080100000000
+    - data: 03003c0000000000
+    - data: 0100000000000000
+    - data: 0023620000000000
+    - data: 03003c0000000000
+    - data: 8111110200000000
+    Index: 0
+    PLogP: -0.32188758
+  - Name: Empty R2
+    Prototype: {fileID: 114566250024934836, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 1351484772775764, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: c088080100000000
+    - data: 03003c0000000000
+    - data: 4246840000000000
+    - data: 0023620000000000
+    - data: 03003c0000000000
+    - data: 0200000000000000
+    Index: 1
+    PLogP: -0.32188758
+  - Name: plane R0
+    Prototype: {fileID: 7337853348831469717, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 2883974420796944740, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 2c20e20000000000
+    - data: 0400400000000000
+    - data: 3c10510300000000
+    - data: 3c88880300000000
+    - data: 0400400000000000
+    - data: 2000400000000000
+    Index: 2
+    PLogP: 0
+  - Name: plane R1
+    Prototype: {fileID: 7337853348831469717, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 2883974420796944740, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 0800800000000000
+    - data: 3c10510300000000
+    - data: 0400800000000000
+    - data: 0800800000000000
+    - data: 1c44840100000000
+    Index: 3
+    PLogP: 0
+  - Name: plane R2
+    Prototype: {fileID: 7337853348831469717, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 2883974420796944740, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 1000000100000000
+    - data: 0800000100000000
+    - data: 3888080300000000
+    - data: 1000000100000000
+    - data: 3c44c40100000000
+    Index: 4
+    PLogP: 0
+  - Name: plane R3
+    Prototype: {fileID: 7337853348831469717, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 2883974420796944740, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 1000000200000000
+    - data: 2000000200000000
+    - data: 3410510200000000
+    - data: 3c88880300000000
+    - data: 2000000200000000
+    - data: 3c44c40100000000
+    Index: 5
+    PLogP: 0
+  - Name: corner_1 R0
+    Prototype: {fileID: 4434112784138149217, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7858399206401327461, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0004040000000000
+    - data: 4000000000000000
+    - data: 0080080000000000
+    - data: 0321620000000000
+    - data: 4000000000000000
+    - data: 0310110200000000
+    Index: 6
+    PLogP: 3.295837
+  - Name: corner_1 R1
+    Prototype: {fileID: 4434112784138149217, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7858399206401327461, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 0000110000000000
+    - data: 8000000000000000
+    - data: 0346840000000000
+    - data: 0320620000000000
+    - data: 8000000000000000
+    - data: 0008080000000000
+    Index: 7
+    PLogP: 3.295837
+  - Name: corner_1 R2
+    Prototype: {fileID: 4434112784138149217, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7858399206401327461, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 4388080100000000
+    - data: 0001000000000000
+    - data: 0344840000000000
+    - data: 0010100000000000
+    - data: 0001000000000000
+    - data: 0000220000000000
+    Index: 8
+    PLogP: 3.295837
+  - Name: corner_1 R3
+    Prototype: {fileID: 4434112784138149217, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7858399206401327461, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 0388080100000000
+    - data: 0002000000000000
+    - data: 0020200000000000
+    - data: 0040040000000000
+    - data: 0002000000000000
+    - data: 8310110200000000
+    Index: 9
+    PLogP: 3.295837
+  - Name: corner_2 R0
+    Prototype: {fileID: 2684649721549886449, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 529922724061810366, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0050000000000000
+    - data: 0044000000000000
+    - data: 3c10510300000000
+    - data: 4040040000000000
+    - data: 0044000000000000
+    - data: 8311110200000000
+    Index: 10
+    PLogP: 1.3862944
+  - Name: corner_2 R1
+    Prototype: {fileID: 2684649721549886449, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 529922724061810366, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 0088000000000000
+    - data: 8080080000000000
+    - data: 0323620000000000
+    - data: 0088000000000000
+    - data: 00a0000000000000
+    Index: 11
+    PLogP: 1.3862944
+  - Name: corner_2 R2
+    Prototype: {fileID: 2684649721549886449, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 529922724061810366, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 0001110000000000
+    - data: 0010010000000000
+    - data: 4346840000000000
+    - data: 0004010000000000
+    - data: 0010010000000000
+    - data: 3c44c40100000000
+    Index: 12
+    PLogP: 1.3862944
+  - Name: corner_2 R3
+    Prototype: {fileID: 2684649721549886449, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 529922724061810366, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: c388080100000000
+    - data: 0020020000000000
+    - data: 0008020000000000
+    - data: 3c88880300000000
+    - data: 0020020000000000
+    - data: 0002220000000000
+    Index: 13
+    PLogP: 1.3862944
+  - Name: corner_2_mirror R0
+    Prototype: {fileID: 6519007019771047787, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 4439873994403648030, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0006040000000000
+    - data: 0044000000000000
+    - data: 3c10510300000000
+    - data: 0004010000000000
+    - data: 0044000000000000
+    - data: 8311110200000000
+    Index: 14
+    PLogP: 0
+  - Name: corner_2_mirror R1
+    Prototype: {fileID: 6519007019771047787, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 4439873994403648030, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 0088000000000000
+    - data: 0008020000000000
+    - data: 0323620000000000
+    - data: 0088000000000000
+    - data: 4008080000000000
+    Index: 15
+    PLogP: 0
+  - Name: corner_2_mirror R2
+    Prototype: {fileID: 6519007019771047787, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 4439873994403648030, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 0050000000000000
+    - data: 0010010000000000
+    - data: 4346840000000000
+    - data: 8010100000000000
+    - data: 0010010000000000
+    - data: 3c44c40100000000
+    Index: 16
+    PLogP: 0
+  - Name: corner_2_mirror R3
+    Prototype: {fileID: 6519007019771047787, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 4439873994403648030, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: c388080100000000
+    - data: 0020020000000000
+    - data: 0021200000000000
+    - data: 3c88880300000000
+    - data: 0020020000000000
+    - data: 00a0000000000000
+    Index: 17
+    PLogP: 0
+  - Name: corner_3 R0
+    Prototype: {fileID: 5072701510383002360, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7370147880629680737, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: 0006040000000000
+    - data: 0100040000000000
+    - data: 3c10510300000000
+    - data: 4040040000000000
+    - data: 0100040000000000
+    - data: 8311110200000000
+    Index: 18
+    PLogP: 5.5451775
+  - Name: corner_3 R1
+    Prototype: {fileID: 5072701510383002360, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7370147880629680737, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 0000080000000000
+    - data: 8080080000000000
+    - data: 0323620000000000
+    - data: 0000080000000000
+    - data: 4008080000000000
+    Index: 19
+    PLogP: 5.5451775
+  - Name: corner_3 R2
+    Prototype: {fileID: 5072701510383002360, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7370147880629680737, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 0001110000000000
+    - data: 0200100000000000
+    - data: 4346840000000000
+    - data: 8010100000000000
+    - data: 0200100000000000
+    - data: 3c44c40100000000
+    Index: 20
+    PLogP: 5.5451775
+  - Name: corner_3 R3
+    Prototype: {fileID: 5072701510383002360, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7370147880629680737, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: c388080100000000
+    - data: 0000200000000000
+    - data: 0021200000000000
+    - data: 3c88880300000000
+    - data: 0000200000000000
+    - data: 0002220000000000
+    Index: 21
+    PLogP: 5.5451775
+  - Name: corner_4 R0
+    Prototype: {fileID: 6229736528886422201, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7250668772447934425, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 0
+    PossibleNeighbors:
+    - data: c388080000000000
+    - data: 0400400000000000
+    - data: 3410510200000000
+    - data: 3c88880300000000
+    - data: 0400400000000000
+    - data: 2000400000000000
+    Index: 22
+    PLogP: 0
+  - Name: corner_4 R1
+    Prototype: {fileID: 6229736528886422201, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7250668772447934425, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 1
+    PossibleNeighbors:
+    - data: 2c20e20000000000
+    - data: 0800800000000000
+    - data: 3c10510300000000
+    - data: 0400800000000000
+    - data: 0800800000000000
+    - data: 8311110000000000
+    Index: 23
+    PLogP: 0
+  - Name: corner_4 R2
+    Prototype: {fileID: 6229736528886422201, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7250668772447934425, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 2
+    PossibleNeighbors:
+    - data: 3c20e20200000000
+    - data: 1000000100000000
+    - data: 0800000100000000
+    - data: 0323220000000000
+    - data: 1000000100000000
+    - data: 1c44840100000000
+    Index: 24
+    PLogP: 0
+  - Name: corner_4 R3
+    Prototype: {fileID: 6229736528886422201, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Prefab: {fileID: 7250668772447934425, guid: 40668992928849a429b29b146a3b8b23, type: 3}
+    Rotation: 3
+    PossibleNeighbors:
+    - data: 1000000200000000
+    - data: 2000000200000000
+    - data: 4346040000000000
+    - data: 3888080300000000
+    - data: 2000000200000000
+    - data: 3c44c40100000000
+    Index: 25
+    PLogP: 0
